@@ -339,12 +339,7 @@ body {
 .members-flex {
     display: flex;
     flex-wrap: wrap;
-}
-
-.photos-item {
-    width: 360px;
-    margin-right: 24px;
-
+    gap: 24px;
 }
 
 .employee-page{
@@ -355,7 +350,6 @@ body {
 .employee-item {
     background-color: #FFFFFF;
     width: 264px;
-    margin-right: 24px;
 }
 
 .employee-item:nth-child(4n) {
