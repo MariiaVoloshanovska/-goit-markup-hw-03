@@ -240,23 +240,29 @@ body {
 
 .hero {
     background-color: var(--primary-text-color);
-    text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .main-title {
     margin-top: 0;
     margin-bottom: 48px;
     padding-top: 188px;
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .modal-btn {
     border-radius: 4px;
-    padding: 16px 32px;
     min-width: 169px;
+    display: block;
+    margin: 48px 635px 188px 636px;
+    height: 56px;
+    border: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
