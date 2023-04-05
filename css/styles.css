@@ -10,10 +10,32 @@
     --logo-footer-two: #F4F4FD;
 }
 
-body {
-    background-color: #FFFFFF;
-    color: #434455;
-    font-family: var(--primary-font);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol
+ {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
 }
 
 .list {
@@ -24,12 +46,31 @@ body {
     text-decoration: none;
 }
 
+body {
+    background-color: #FFFFFF;
+    color: #434455;
+    font-family: var(--primary-font);
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
 /* ========================= COMPONENTS =========================== */
 
 /* LOGOTYPE HEADER */
 
 
 .logo {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -37,7 +78,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5
+    color: #4D5AE5;
 }
 
 .logo-two {
@@ -57,11 +98,15 @@ body {
 /* Contacts header */
 
 .menu-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+
 }
 
 .menu-link:hover,
@@ -70,6 +115,9 @@ body {
 }
 
 .menu-link-contacts {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -85,6 +133,8 @@ body {
 
 
 .section-main {
+    margin-top: 120px;
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -95,6 +145,7 @@ body {
 }
 
 .section-paragraf {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -114,19 +165,25 @@ body {
 
 .section-descrip-theme-dark {
     color: #F4F4FD;
+    margin-top: 17.5px;
 }
 
 /* PORTFOLIO BUTTONS */
 
 .modal-portfolio-btn {
+    display: inline-block;
+    border: 1px solid #E7E9FC;
+    padding: 12px 24px;
+    border-radius: 4px;
+    min-width: 69px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    cursor: pointer;
     background-color: #F4F4FD;
     color: #4D5AE5;
+    text-align: center;
 }
 
 .modal-portfolio-btn:hover,
@@ -141,32 +198,63 @@ body {
 
 .adress-header {
     font-style: normal;
+    margin-left: auto;
 }
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+
+.contacts {
+    display: flex;
+    align-items: center;
+}
+
 /* =========================== /HEADER ============================ */
 
 /* ============================ HERO ============================== */
 
 .hero {
     background-color: var(--primary-text-color);
+    text-align: center;
 }
 .main-title {
+    margin-top: 0;
+    margin-bottom: 48px;
+    padding-top: 188px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
 .modal-btn {
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    cursor: pointer;
     color: #FFFFFF;
     background-color: #4D5AE5;
 }
@@ -174,6 +262,10 @@ body {
     .modal-btn:hover,
     .modal-btn:focus {
         background-color: var(--accent-bg-color);
+    }
+
+    .container-hero {
+        text-align: center;
     }
 
 /* =========================== /HERO ============================ */
@@ -220,3 +312,41 @@ body {
 }
 
 /* =========================== FOOTER ============================ */
+
+
+
+
+/* =========================== BOTTONS PORTFOLIO ============================ */
+
+.page-header-port-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 96px;
+    margin-bottom: 72px;
+}
+
+.buttons-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+/* =========================== /BOTTONS PORTFOLIO ============================ */
+
+
+.employee-photo {
+    margin-bottom: 32px;
+}
+
+
+/* =========================== FOOTER PORTFOLIO ============================ */
+
+.container-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-description-ph {
+    display: flex;
+    width: 264px;
+}
+/* =========================== /FOOTER PORTFOLIO ============================ */
