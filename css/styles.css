@@ -163,6 +163,7 @@ body {
 
 .section-descrip-theme-light {
     color: var(--secondary-text-color);
+    text-align: center;
 }
 
 .section-descrip-theme-dark {
@@ -360,6 +361,10 @@ body {
 .employee-item:nth-child(4n) {
     margin-right: 0;
 }
+
+
+/* Main section portfolio */
+
 
 
 /* =========================== MAIN ============================ */
