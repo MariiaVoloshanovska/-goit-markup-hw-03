@@ -165,7 +165,7 @@ body {
 
 .section-descrip-theme-dark {
     color: #F4F4FD;
-    margin-top: 17.5px;
+
 }
 
 /* PORTFOLIO BUTTONS */
@@ -196,6 +196,10 @@ body {
 
 /* ============================ HEADER ============================ */
 
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .adress-header {
     font-style: normal;
     margin-left: auto;
@@ -214,6 +218,10 @@ body {
 .menu {
     display: flex;
     align-items: center;
+}
+
+.menu-item {
+    margin-right: 40px;
 }
 
 .menu-item:not(:last-child) {
@@ -340,13 +348,16 @@ body {
 
 /* =========================== FOOTER PORTFOLIO ============================ */
 
-.container-footer {
+.footer-page {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
+.container-footer {
+    display: inline-block;
+}
+
 .section-description-ph {
-    display: flex;
     width: 264px;
 }
 /* =========================== /FOOTER PORTFOLIO ============================ */
