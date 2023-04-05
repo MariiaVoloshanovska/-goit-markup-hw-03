@@ -133,7 +133,6 @@ body {
 
 
 .section-main {
-    margin-top: 120px;
     margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
@@ -374,3 +373,23 @@ body {
 }
 
 /* =========================== /FOOTER PORTFOLIO ============================ */
+
+
+.descripption-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description-item {
+    width: 264px;
+    margin-right: 24px;
+}
+
+.description-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.descripption-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
