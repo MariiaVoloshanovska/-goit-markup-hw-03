@@ -262,7 +262,7 @@ body {
     border-radius: 4px;
     min-width: 169px;
     display: block;
-    margin: 48px 635px 188px 636px;
+    margin: 0 635px 188px 636px;
     height: 56px;
     border: none;
     font-family: 'Roboto', sans-serif;
