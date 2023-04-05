@@ -288,6 +288,48 @@ body {
 
 /* =========================== MAIN ============================ */
 
+/* Description text flex */
+
+.descripption-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description-item {
+    width: 264px;
+    margin-right: 24px;
+}
+
+.description-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.descripption-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/* What are we doing photos flex */
+
+.photos-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photos-item {
+    width: 360px;
+    margin-right: 24px;
+
+}
+
+.photos-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.photos-section {
+    padding-bottom: 120px;
+}
+
 .employee-page{
     background-color: #F4F4FD;
 }
@@ -295,6 +337,7 @@ body {
 .employee-bg {
     background-color: #FFFFFF;
 }
+
 
 /* =========================== MAIN ============================ */
 
@@ -375,21 +418,3 @@ body {
 /* =========================== /FOOTER PORTFOLIO ============================ */
 
 
-.descripption-flex {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.description-item {
-    width: 264px;
-    margin-right: 24px;
-}
-
-.description-item:nth-child(4n) {
-    margin-right: 0;
-}
-
-.descripption-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
