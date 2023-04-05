@@ -133,6 +133,7 @@ body {
 
 
 .section-main {
+    padding-top: 120px;
     margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
@@ -150,12 +151,15 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    text-align: center;
 }
 
 .section-description {
+    margin-bottom: 32px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .section-descrip-theme-light {
@@ -330,12 +334,32 @@ body {
     padding-bottom: 120px;
 }
 
-.employee-page{
-    background-color: #F4F4FD;
+/* The members of a team flex */
+
+.members-flex {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.employee-bg {
+.photos-item {
+    width: 360px;
+    margin-right: 24px;
+
+}
+
+.employee-page{
+    background-color: #F4F4FD;
+    padding-bottom: 120px;
+}
+
+.employee-item {
     background-color: #FFFFFF;
+    width: 264px;
+    margin-right: 24px;
+}
+
+.employee-item:nth-child(4n) {
+    margin-right: 0;
 }
 
 
