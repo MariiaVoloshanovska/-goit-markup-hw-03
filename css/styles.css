@@ -356,6 +356,10 @@ body {
     margin-right: 0;
 }
 
+.employee-photo {
+    margin-bottom: 32px;
+}
+
 
 /* Main section portfolio */
 
@@ -412,10 +416,6 @@ body {
 
 /* =========================== /BOTTONS PORTFOLIO ============================ */
 
-
-.employee-photo {
-    margin-bottom: 32px;
-}
 
 
 /* =========================== FOOTER PORTFOLIO ============================ */
