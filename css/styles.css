@@ -263,7 +263,6 @@ body {
     margin-right: auto;
     min-width: 169px;
     display: block;
-    margin: 0 480px 188px 480px;
     height: 56px;
     border: none;
     font-family: 'Roboto', sans-serif;
@@ -281,9 +280,6 @@ body {
         background-color: var(--accent-bg-color);
     }
 
-    .container-hero {
-        text-align: center;
-    }
 
 /* =========================== /HERO ============================ */
 
@@ -371,3 +367,8 @@ body {
 }
 
 /* =========================== /FOOTER PORTFOLIO ============================ */
+
+.container-hero {
+    padding-top: 188px;
+    padding-bottom: 188px
+}
