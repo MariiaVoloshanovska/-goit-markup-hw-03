@@ -344,7 +344,7 @@ body {
 
 .employee-page{
     background-color: #F4F4FD;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .employee-item {
