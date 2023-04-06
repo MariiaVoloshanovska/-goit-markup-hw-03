@@ -474,21 +474,20 @@ body {
 
 /* =========================== FOOTER PORTFOLIO ============================ */
 
-.footer-margin {
-    margin-bottom: 16px;
-}
 
 .footer-page {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.container-footer {
-    display: inline-block;
-}
 
 .section-description-ph {
     width: 264px;
+}
+
+.logo-tog {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 /* =========================== /FOOTER PORTFOLIO ============================ */
