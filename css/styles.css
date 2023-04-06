@@ -195,16 +195,17 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    text-align: center;
     letter-spacing: 0.04em;
     background-color: #F4F4FD;
     color: #4D5AE5;
-    text-align: center;
 }
 
 .modal-portfolio-btn:hover,
 .modal-portfolio-btn:focus {
     background-color: var(--accent-bg-color);
     color: var(--accent-color);
+    
     border: 1px solid transparent;
 
 }
@@ -437,9 +438,6 @@ body {
     margin-bottom: 72px;
 }
 
-.buttons-item:not(:last-child) {
-    margin-right: 40px;
-}
 
 /* =========================== /BOTTONS PORTFOLIO ============================ */
 
