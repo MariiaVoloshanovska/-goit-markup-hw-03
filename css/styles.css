@@ -150,9 +150,16 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    text-align: center;
 }
 
+.section-paragraf-portfolio {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+} 
 .section-description {
     margin-bottom: 32px;
     font-size: 16px;
@@ -162,6 +169,12 @@ body {
 
 .section-descrip-theme-light {
     color: var(--secondary-text-color);
+    text-align: center;
+}
+
+.section-descrip-theme-light-portfolio {
+    color: var(--secondary-text-color);
+
 }
 
 .section-descrip-theme-dark {
@@ -177,7 +190,6 @@ body {
     display: inline-block;
     border: 1px solid #E7E9FC;
     padding: 12px 24px;
-    border-radius: 4px;
     min-width: 69px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
