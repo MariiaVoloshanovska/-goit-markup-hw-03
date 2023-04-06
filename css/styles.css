@@ -150,8 +150,13 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+   
+}
+
+.section-paragraf-members {
     text-align: center;
 }
+
 
 .section-paragraf-portfolio {
     margin-bottom: 8px;
@@ -171,6 +176,10 @@ body {
 .section-descrip-theme-light {
     color: var(--secondary-text-color);
     text-align: center;
+}
+
+.section-descrip-theme-light-ind {
+    color: var(--secondary-text-color);
 }
 
 .section-descrip-theme-light-portfolio {
@@ -329,11 +338,12 @@ body {
 .descripption-flex {
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
 }
 
 .description-item {
     width: 264px;
-    margin-right: 24px;
+
 }
 
 .description-item:nth-child(4n) {
