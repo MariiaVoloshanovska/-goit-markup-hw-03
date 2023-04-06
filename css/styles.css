@@ -204,9 +204,12 @@ body {
 .modal-portfolio-btn:hover,
 .modal-portfolio-btn:focus {
     background-color: var(--accent-bg-color);
+
     color: var(--accent-color);
     
     border: 1px solid transparent;
+    
+    border-radius: 4px;
 
 }
 
@@ -454,7 +457,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 24px;
-    margin-top: 96px;
     margin-bottom: 72px;
 }
 
