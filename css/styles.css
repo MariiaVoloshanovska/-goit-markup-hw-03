@@ -195,7 +195,6 @@ body {
 /* PORTFOLIO BUTTONS */
 
 .modal-portfolio-btn {
-    border: 1px solid #e7e9fc;
     border-radius: 4px;
     display: inline-block;
     border: 1px solid #E7E9FC;
@@ -408,7 +407,8 @@ body {
 /* Main section portfolio */
 
 .portfolio-section {
-    padding: 96px 120px;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .portfolio-item {
