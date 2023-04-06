@@ -367,6 +367,7 @@ body {
     width: 264px;
 }
 
+
 .employee-item:nth-child(4n) {
     margin-right: 0;
 }
@@ -380,7 +381,9 @@ body {
 
 /* Main section portfolio */
 
-
+.portfolio-item {
+    width: 360px;
+}
 
 .portfolio-flex {
     display: flex;
