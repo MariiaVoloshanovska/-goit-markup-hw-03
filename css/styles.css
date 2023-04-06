@@ -151,7 +151,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
-    text-align: center;
 }
 
 .section-description {
@@ -163,7 +162,6 @@ body {
 
 .section-descrip-theme-light {
     color: var(--secondary-text-color);
-    text-align: center;
 }
 
 .section-descrip-theme-dark {
