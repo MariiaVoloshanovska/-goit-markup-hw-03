@@ -164,6 +164,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--primary-text-color)
 } 
 
 .section-description{
@@ -412,7 +413,7 @@ body {
 }
 
 .portfolio-item {
-    width: 360px;
+    width: calc((100% - 48px) / 3);
 }
 
 .members-item:nth-child(n) {
