@@ -162,7 +162,6 @@ body {
 } 
 
 .section-description{
-    margin-bottom: 32px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -421,7 +420,6 @@ body {
     border: 1px solid #e7e9fc;
     padding: 32px 16px;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 /* =========================== MAIN ============================ */
