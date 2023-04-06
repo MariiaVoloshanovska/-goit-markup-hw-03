@@ -349,12 +349,11 @@ body {
 .photos-flex {
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
 }
 
 .photos-item {
-    width: 360px;
-    margin-right: 24px;
-
+    width: 360px; 
 }
 
 .photos-item:nth-child(3n) {
@@ -405,7 +404,7 @@ body {
     width: 360px;
 }
 
-.members-item:nth-child(3n) {
+.members-item:nth-child(n) {
     margin-right: 0;
 }
 
