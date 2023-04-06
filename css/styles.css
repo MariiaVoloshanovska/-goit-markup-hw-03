@@ -413,7 +413,10 @@ body {
 }
 
 .portfolio-wrapper-inside {
-    border: 1px solid #E7E9FC;
+    border: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 /* =========================== MAIN ============================ */
